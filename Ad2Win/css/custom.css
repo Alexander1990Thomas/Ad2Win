@@ -1,0 +1,22 @@
+.box > .icon {
+    text-align: center;
+    position: relative;
+}
+.box > .icon > .info {
+    margin-top: -24px;
+    background: rgba(0, 0, 0, 0.04);
+    /* border: 1px solid #e0e0e0; */
+    padding: 15px 0 10px 0;
+}
+.box > .icon > .image {
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    width: 88px;
+    height: 88px;
+    /* border: 8px solid white; */
+    line-height: 88px;
+    border-radius: 50%;
+    background: #63B76C;
+    vertical-align: middle;
+}
