@@ -1,0 +1,71 @@
+.box > .icon {
+    text-align: center;
+    position: relative;
+}
+.box > .icon > .info {
+    margin-top: -24px;
+    background: rgba(0, 0, 0, 0.04);
+    /* border: 1px solid #e0e0e0; */
+    padding: 15px 0 10px 0;
+}
+.box > .icon > .image {
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    width: 88px;
+    height: 88px;
+    /* border: 8px solid white; */
+    line-height: 88px;
+    border-radius: 50%;
+    background: #63B76C;
+    vertical-align: middle;
+}
+.animation--fade-bg {
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+   
+  animation-duration: 12s;
+  animation-name: fade-bg;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: forward;
+
+}
+
+@keyframes fade-bg {
+    0% {
+        opacity: 0;
+        background-image: url('../img/home-bg.jpg');
+    }
+    
+    25% {
+        opacity: 1;
+        background-image: url('../img/advertising-word-cloud.jpg');
+    }
+    
+    50% {
+        opacity: 0;
+        background-image: url('http://i.imgur.com/sRnvs0K.jpg');
+    }
+    
+    51% {
+        opacity: 0;
+        background-image: url('http://i.imgur.com/wL4RT1w.jpg');
+    }
+    
+    75% {
+        opacity: 1;
+        background-image: url('http://i.imgur.com/wL4RT1w.jpg');
+    }
+    
+    100% {
+        opacity: 0;
+        background-image: url('http://i.imgur.com/wL4RT1w.jpg');
+    }
+}
+.navbar{
+    background-color: #337ab7 !important;
+    margin-bottom: 0px !important;
+
+}
